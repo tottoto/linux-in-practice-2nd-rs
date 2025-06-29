@@ -13,5 +13,8 @@ path = "src/bin/inf_loop.rs"
 name = "syscall-inf-loop"
 path = "src/bin/syscall_inf_loop.rs"
 
+[[bin]]
+name = "pause"
+
 [dependencies]
 libc = "0.2"
