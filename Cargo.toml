@@ -1,0 +1,5 @@
+[package]
+name = "linux-in-practice"
+edition = "2024"
+
+[dependencies]
