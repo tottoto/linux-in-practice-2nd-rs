@@ -5,4 +5,8 @@ edition = "2024"
 [[bin]]
 name = "hello"
 
+[[bin]]
+name = "inf-loop"
+path = "src/bin/inf_loop.rs"
+
 [dependencies]
