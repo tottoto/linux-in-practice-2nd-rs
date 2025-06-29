@@ -2,4 +2,7 @@
 name = "linux-in-practice"
 edition = "2024"
 
+[[bin]]
+name = "hello"
+
 [dependencies]
