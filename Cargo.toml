@@ -19,5 +19,9 @@ name = "pause"
 [[bin]]
 name = "fork"
 
+[[bin]]
+name = "fork-and-exec"
+path = "src/bin/fork_and_exec.rs"
+
 [dependencies]
 libc = "0.2"
