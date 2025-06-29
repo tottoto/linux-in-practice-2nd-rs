@@ -16,5 +16,8 @@ path = "src/bin/syscall_inf_loop.rs"
 [[bin]]
 name = "pause"
 
+[[bin]]
+name = "fork"
+
 [dependencies]
 libc = "0.2"
