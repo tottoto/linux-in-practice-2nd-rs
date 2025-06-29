@@ -26,5 +26,8 @@ path = "src/bin/fork_and_exec.rs"
 [[bin]]
 name = "intignore"
 
+[[bin]]
+name = "load"
+
 [dependencies]
 libc = "0.2"
