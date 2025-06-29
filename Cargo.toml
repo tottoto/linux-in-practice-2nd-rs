@@ -9,4 +9,9 @@ name = "hello"
 name = "inf-loop"
 path = "src/bin/inf_loop.rs"
 
+[[bin]]
+name = "syscall-inf-loop"
+path = "src/bin/syscall_inf_loop.rs"
+
 [dependencies]
+libc = "0.2"
