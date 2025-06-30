@@ -29,5 +29,8 @@ name = "intignore"
 [[bin]]
 name = "load"
 
+[[bin]]
+name = "sched"
+
 [dependencies]
 libc = "0.2"
