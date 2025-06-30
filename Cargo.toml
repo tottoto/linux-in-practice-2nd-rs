@@ -32,5 +32,9 @@ name = "load"
 [[bin]]
 name = "sched"
 
+[[bin]]
+name = "sched-nice"
+path = "src/bin/sched_nice.rs"
+
 [dependencies]
 libc = "0.2"
