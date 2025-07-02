@@ -36,5 +36,8 @@ name = "sched"
 name = "sched-nice"
 path = "src/bin/sched_nice.rs"
 
+[[bin]]
+name = "memuse"
+
 [dependencies]
 libc = "0.2"
