@@ -39,5 +39,8 @@ path = "src/bin/sched_nice.rs"
 [[bin]]
 name = "memuse"
 
+[[bin]]
+name = "segv"
+
 [dependencies]
 libc = "0.2"
