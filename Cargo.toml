@@ -42,5 +42,8 @@ name = "memuse"
 [[bin]]
 name = "segv"
 
+[[bin]]
+name = "mmap"
+
 [dependencies]
 libc = "0.2"
