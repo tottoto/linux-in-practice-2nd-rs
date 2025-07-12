@@ -45,5 +45,9 @@ name = "segv"
 [[bin]]
 name = "mmap"
 
+[[bin]]
+name = "demand-paging"
+path = "src/bin/demand_paging.rs"
+
 [dependencies]
 libc = "0.2"
