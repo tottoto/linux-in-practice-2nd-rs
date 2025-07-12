@@ -52,5 +52,8 @@ path = "src/bin/demand_paging.rs"
 [[bin]]
 name = "capture"
 
+[[bin]]
+name = "cow"
+
 [dependencies]
 libc = "0.2"
