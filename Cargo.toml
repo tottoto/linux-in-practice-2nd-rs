@@ -49,5 +49,8 @@ name = "mmap"
 name = "demand-paging"
 path = "src/bin/demand_paging.rs"
 
+[[bin]]
+name = "capture"
+
 [dependencies]
 libc = "0.2"
