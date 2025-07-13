@@ -55,5 +55,9 @@ name = "capture"
 [[bin]]
 name = "cow"
 
+[[bin]]
+name = "non-shared-memory"
+path = "src/bin/non_shared_memory.rs"
+
 [dependencies]
 libc = "0.2"
