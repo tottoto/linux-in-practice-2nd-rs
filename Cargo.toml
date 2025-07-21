@@ -59,5 +59,9 @@ name = "cow"
 name = "non-shared-memory"
 path = "src/bin/non_shared_memory.rs"
 
+[[bin]]
+name = "shared-memory"
+path = "src/bin/shared_memory.rs"
+
 [dependencies]
 libc = "0.2"
