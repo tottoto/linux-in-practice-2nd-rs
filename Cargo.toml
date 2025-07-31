@@ -63,5 +63,8 @@ path = "src/bin/non_shared_memory.rs"
 name = "shared-memory"
 path = "src/bin/shared_memory.rs"
 
+[[bin]]
+name = "inc"
+
 [dependencies]
 libc = "0.2"
