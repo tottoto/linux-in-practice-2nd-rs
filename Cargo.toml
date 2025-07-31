@@ -70,5 +70,9 @@ name = "inc"
 name = "inc-wrong-lock"
 path = "src/bin/inc_wrong_lock.rs"
 
+[[bin]]
+name = "inc-lock"
+path = "src/bin/inc_lock.rs"
+
 [dependencies]
 libc = "0.2"
