@@ -66,5 +66,9 @@ path = "src/bin/shared_memory.rs"
 [[bin]]
 name = "inc"
 
+[[bin]]
+name = "inc-wrong-lock"
+path = "src/bin/inc_wrong_lock.rs"
+
 [dependencies]
 libc = "0.2"
